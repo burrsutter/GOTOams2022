@@ -10,7 +10,7 @@ count = 0
 def main():
     global count
     count += 1
-    return os.getenv('GREETING', 'Jambo') + " from Python Flask on " + os.getenv('HOSTNAME', "unknown") + ":" + str(count)
+    return os.getenv('GREETING', 'Jambo') + " from Python Flask on " + os.getenv('HOSTNAME', "unknown") + ":" + str(count) + "\n"
 
 
 if __name__ == "__main__":
