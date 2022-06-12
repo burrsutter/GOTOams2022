@@ -1,0 +1,1 @@
+export PATH=/Users/burr/projects/GOTOams/jboss-eap-7.4/bin:$PATH

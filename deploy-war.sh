@@ -1,0 +1,1 @@
+jboss-cli.sh -c --controller=localhost:9990 --command="deploy --force /Users/burr/projects/GOTOams2022/wars/myapplication-war/target/myapplication.war"
